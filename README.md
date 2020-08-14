@@ -17,6 +17,9 @@ Boxdata
 0 9
 ```
 
+I had no success building traineddata which can recognize the image shown above. 
+I wonder, if it is even possible to create traineddata for the given images.
+
 In the following the output of `make training`
 
 ```
