@@ -2,6 +2,10 @@ I try to build a traineddata model for a dot matrix font with custom box data.
 The pictures only contain numbers and were taken with a Raspicam. 
 I set the value for DPI to 600.
 
+Am example for a single image 
+
+![imagedata](https://github.com/3epnm/sabei/blob/master/09.png "imagedata")
+
 In the following the output of `make training`
 
 ```
