@@ -6,6 +6,17 @@ Am example for a single image
 
 ![imagedata](https://github.com/3epnm/sabei/blob/master/09.png "imagedata")
 
+Boxdata
+```
+0 37 26 132 159 0
+9 166 29 261 162 0
+```
+
+.gt.txt (i tried also without a blank between the numbers
+```
+0 9
+```
+
 In the following the output of `make training`
 
 ```
