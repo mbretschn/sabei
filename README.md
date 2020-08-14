@@ -1,6 +1,11 @@
-I try to build a traineddata model for a dot matrix font with custom box data. 
+I try to build a traineddata model for a dot matrix font with custom box data.
+The pictures only contain numbers and were taken with a Raspicam. 
+I set the value for DPI to 600.
 
-`
+In the following the output of `make training`
+
+```
+> make training 
 find data/sabei-ground-truth -name '*.gt.txt' | xargs cat | sort | uniq > "data/sabei/all-gt"
 unicharset_extractor --output_unicharset "data/sabei/unicharset" --norm_mode 2 "data/sabei/all-gt"
 Bad box coordinates in boxfile string! 23171014343530070829312213062132042527261519002033030116241109021205283618
@@ -284,3 +289,4 @@ Loaded file data/sabei/checkpoints/sabei_checkpoint, unpacking...
 `
 
 The ground-truth files can be reviewed [`here`](https://github.com/3epnm/sabei)  
+```
