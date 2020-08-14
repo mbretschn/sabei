@@ -1,6 +1,6 @@
 I try to build a traineddata model for a dot matrix font with custom box data.
 The pictures only contain numbers and were taken with a Raspicam. 
-I set the value for DPI to 600.
+I set the value for DPI to 600. The complete ground-truth data can be viewed [here](https://github.com/3epnm/sabei).
 
 Am example for a single image 
 
