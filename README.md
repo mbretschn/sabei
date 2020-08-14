@@ -1,4 +1,7 @@
 I try to build a traineddata model for a dot matrix font with custom box data.
+I had no success building traineddata which can recognize a training image shown below. 
+I wonder, if it is even possible to create traineddata for the given images.
+
 The pictures only contain numbers and were taken with a Raspicam. 
 I set the value for DPI to 600. The complete ground-truth data can be viewed [here](https://github.com/3epnm/sabei).
 
@@ -12,13 +15,10 @@ Boxdata
 9 166 29 261 162 0
 ```
 
-.gt.txt (i tried also without a blank between the numbers
+.gt.txt (i tried also without a blank between the numbers)
 ```
 0 9
 ```
-
-I had no success building traineddata which can recognize the image shown above. 
-I wonder, if it is even possible to create traineddata for the given images.
 
 In the following the output of `make training`
 
